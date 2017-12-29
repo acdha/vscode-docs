@@ -376,7 +376,7 @@ Below is an example of a custom task configuration that passes the current opene
 ```
 
 
-Similarly, you can reference your project's configuration settings by prefixing the name with `config:` — for example, `**${config:python.pythonPath}**`. Below is an example of a custom task configuration which executes autopep8 on the current file using your project's selected Python executable:
+Similarly, you can reference your project's configuration settings by prefixing the name with `config:` — for example, `${config:python.pythonPath}`. Below is an example of a custom task configuration which executes autopep8 on the current file using your project's selected Python executable:
 
 ```json
 {
